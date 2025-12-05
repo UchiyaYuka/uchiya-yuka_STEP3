@@ -1,0 +1,59 @@
+body{
+    font-family: Hiragino Mincho ProN;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: #AF011C;
+    padding: 50px 0 50px;
+    text-align: center;
+    color: #FFFEF6;
+    
+}
+
+header h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    background-color: #FFFEF6;
+}
+
+nav{
+    background-color: #892F1B;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px 10px;
+    line-height: 30px;
+}
+
+main {
+    background-color: #FFFEF6;
+}
+
+form {
+    padding: 20px 20px 20px 20px ;
+}
+
+main table {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.submit-area {
+    text-align: right;
+}
+
+footer {
+    background-color: #AF011C;
+    padding: 20px 0 20px;
+    text-align: center;
+    color: #FFFEF6;
+}

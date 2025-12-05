@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>世界一甘いお店お問合せフォーム</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+
+<header>
+    <h2>世界一甘いお店</h2>
+</header>
+
+<div class="container">
+
+<nav>
+    <ul>
+        <li><a href="#section1">トップ</a></li>
+        <li><a href="#section2">新作情報</a></li>
+        <li><a href="#section3">おすすめのスイーツ</a></li>
+        <li><a href="#section4">お問い合わせ</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <section id="section4">
+    <form action="#" method="post" class="form-area">
+        <table border="4px">
+        <tr>
+            <th><label for="nama">お名前</label></th>
+            <td>
+                <input type="text" size="40" id="name" name="name">
+            </td>
+        </tr>
+        <tr>
+            <th><label for="nearbyshops">お近くのお店</label></th>
+            <td>
+                <select id="nearbyshops" name="nearbyshops">
+                    <option value="hokkaidoutouhoku">北海道・東北</option>
+                    <option value="kantou">関東</option>
+                    <option value="tyuubu">中部</option>
+                    <option value="kansai">関西</option>
+                    <option value="cyuugokusikoku">中国・四国</option>
+                    <option value="kyuusyuuokunawa">九州・沖縄</option>
+            </td>
+        </tr>
+        <tr>
+            <th><label for="tel">電話</label></th>
+            <td>
+                <input type="text" size="40" id="tel" name="tel">
+            </td>
+        </tr>
+        <tr>
+            <th><label for="mobilenumber">携帯電話</label></th>
+            <td>
+                <input type="text" size="40" id="mobilenumber" name="mobilenumber">
+            </td>
+        </tr>
+        <tr>
+            <th><label for="email">メールアドレス</label></th>
+            <td>
+                <input type="text" size="40" id="email" name="email">
+            </td>
+        </tr>
+        <tr>
+            <th><label for="inquiry-type">お問合せ種別</label></th>
+            <td>
+                <input type="radio" id="inquiry-type" name="inquiry-type">商品について
+                <input type="radio" id="inquiry-type" name="inquiry-type">従業員について
+            </td>
+        </tr>
+        <tr>
+            <th><label for="inquiry">お問合せ内容</label></th>
+            <td>
+                <textarea id="inquiry" name="inquiry" cols="30" rows="5"></textarea>
+            </td>
+        </tr>
+        </table>
+        
+        <div class="submit-area">
+        <button type="submit">送信</button>
+        </div>
+
+    </form>
+    </section>
+</div>
+</main>
+
+<footer>&copy;</footer>
+
+</body>
+
+</html>
